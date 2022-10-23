@@ -43,9 +43,15 @@
    "tag": "actions"},
 
    {"context": "",
-   "patterns": ["who is the Managing Director?", "Managing Director of AGL", "tell me about Managing Director sir", "Managing Director", "Managing Director",  "Adnan Akhter Tony", "Adnan"],
+   "patterns": ["who is the Managing Director?", "Managing Director of AGL", "tell me about Managing Director sir", "Managing Director", "Managing Director",  "Adnan Akhter Tony", "Who is adnan ?"],
    "responses": ["Md. Adnan Akhter Tony is the heard of agl", "Managing Director of AGL is Md. Adnan Akhter Tony", "Md. Adnan Akhter Tony is the founder of AGL"],
    "tag": "Managing Director"},
+
+   {"context": "",
+   "patterns": ["who is Rakib", "who is gangotti of AGL", "blla blla", "paglo", "tell us about Rakib",  "Rakib Hasan Rakib", "Rakib"],
+   "responses": ["Rakib Hasan is a developer.", "Software Developer of AGL is Rakib Hasan", "Rakib is the Gangotti of AGL"],
+   "tag": "Developer"},
+
 
 
   {"context": "",
